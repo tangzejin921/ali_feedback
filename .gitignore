@@ -19,3 +19,4 @@ gradle.properties
 gradle/
 gradlew
 gradlew.bat
+.idea/vcs.xml
