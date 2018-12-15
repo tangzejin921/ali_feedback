@@ -25,7 +25,7 @@ flutter 调用 阿里反馈
 - pub 加入
     ```pub
     dev_dependencies:
-      android_intent:
+      ali_feedback:
         git:
           url: git://github.com/tzjandroid/ali_feedback.git
           path: ali_feedback/src/flutter
