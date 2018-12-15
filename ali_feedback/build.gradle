@@ -23,8 +23,8 @@ if (moduleType == Type.isAPP.name()) {
         def flutterRoot = localProperties.getProperty('flutter.sdk')
         if (flutterRoot != null) {
             project.dependencies {
-                if (project.getConfigurations().findByName("implementation")) {
-                    implementation project.files("$flutterRoot/bin/cache/artifacts/engine/android-arm/flutter.jar")
+                if (project.getConfigurations().findByName("compileOnly")) {
+                    compileOnly project.files("$flutterRoot/bin/cache/artifacts/engine/android-arm/flutter.jar")
                 } else {
                     compile project.files("$flutterRoot/bin/cache/artifacts/engine/android-arm/flutter.jar")
                 }
