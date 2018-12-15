@@ -19,6 +19,10 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven {
+            //阿里云的仓库
+            url "https://maven.aliyun.com/nexus/content/repositories/releases/"
+        }
     }
 }
 rootProject.extensions.add("ali_feedback",Type.isModule.name())

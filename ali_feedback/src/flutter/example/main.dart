@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ali_feedback/aliFeedBack.dart';
+import 'package:ali_feedback/ali_feedback.dart';
 
 void main() => runApp(new MyApp());
 
