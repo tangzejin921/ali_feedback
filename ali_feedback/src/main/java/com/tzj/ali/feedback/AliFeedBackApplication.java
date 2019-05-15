@@ -9,7 +9,7 @@ public class AliFeedBackApplication extends Application{
     @Override
     public void onCreate() {
         super.onCreate();
-        init(this,"24949747","c006e90915738ac8bae113b45f92318c");
+        init(this,getString(R.string.aliyun_key),getString(R.string.aliyun_secret));
     }
 
 
