@@ -86,8 +86,8 @@ android {
 }
 
 dependencies {
-    implementation 'com.aliyun.ams:alicloud-android-feedback:3.1.6'
-    implementation 'com.aliyun.ams:alicloud-android-utdid:1.1.5.3'
-    implementation 'com.aliyun.ams:alicloud-android-ut:5.1.0'
+    implementation 'com.aliyun.ams:alicloud-android-feedback:3.3.1'
+    implementation 'com.aliyun.ams:alicloud-android-utdid:1.1.5.4'
+    implementation 'com.aliyun.ams:alicloud-android-ut:5.4.0'
     implementation 'com.aliyun.ams:alicloud-android-utils:1.1.3'
 }
